@@ -7,11 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<form action="/strcount" method="post">
-	<textarea name="content" cols="40" rows="8"></textarea> <br>
-	<input type="submit" value="글자 수 확인">
-</form>
-
+입력하신 글자 수는 ${count}개 입니다.
 </body>
 </html>
